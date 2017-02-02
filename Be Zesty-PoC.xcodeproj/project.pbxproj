@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D36218FD1E41D5AF00FD0239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36218FC1E41D5AF00FD0239 /* AppDelegate.swift */; };
+		D36218FF1E41D5AF00FD0239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36218FE1E41D5AF00FD0239 /* ViewController.swift */; };
+		D36219021E41D5AF00FD0239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36219001E41D5AF00FD0239 /* Main.storyboard */; };
+		D36219071E41D5AF00FD0239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36219061E41D5AF00FD0239 /* Assets.xcassets */; };
+		D362190A1E41D5AF00FD0239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36219081E41D5AF00FD0239 /* LaunchScreen.storyboard */; };
+		D36219141E41D5E200FD0239 /* English_BeachGI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D36219111E41D5E200FD0239 /* English_BeachGI.mp3 */; };
+		D36219151E41D5E200FD0239 /* English_DeepBreathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D36219121E41D5E200FD0239 /* English_DeepBreathing.mp3 */; };
+		D36219161E41D5E200FD0239 /* English_ForestGI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D36219131E41D5E200FD0239 /* English_ForestGI.mp3 */; };
+		D362191C1E41D5FB00FD0239 /* Spanish_BeachGI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D36219191E41D5FB00FD0239 /* Spanish_BeachGI.mp3 */; };
+		D362191D1E41D5FB00FD0239 /* Spanish_DeepBreathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D362191A1E41D5FB00FD0239 /* Spanish_DeepBreathing.mp3 */; };
+		D362191E1E41D5FB00FD0239 /* Spanish_ForestGI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D362191B1E41D5FB00FD0239 /* Spanish_ForestGI.mp3 */; };
+		D36219211E41D91000FD0239 /* BZPMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36219201E41D91000FD0239 /* BZPMusicViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D36218F91E41D5AF00FD0239 /* Be Zesty-PoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Zesty-PoC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36218FC1E41D5AF00FD0239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D36218FE1E41D5AF00FD0239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D36219011E41D5AF00FD0239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D36219061E41D5AF00FD0239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D36219091E41D5AF00FD0239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D362190B1E41D5AF00FD0239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D36219111E41D5E200FD0239 /* English_BeachGI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English_BeachGI.mp3; sourceTree = "<group>"; };
+		D36219121E41D5E200FD0239 /* English_DeepBreathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English_DeepBreathing.mp3; sourceTree = "<group>"; };
+		D36219131E41D5E200FD0239 /* English_ForestGI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English_ForestGI.mp3; sourceTree = "<group>"; };
+		D36219191E41D5FB00FD0239 /* Spanish_BeachGI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spanish_BeachGI.mp3; sourceTree = "<group>"; };
+		D362191A1E41D5FB00FD0239 /* Spanish_DeepBreathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spanish_DeepBreathing.mp3; sourceTree = "<group>"; };
+		D362191B1E41D5FB00FD0239 /* Spanish_ForestGI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spanish_ForestGI.mp3; sourceTree = "<group>"; };
+		D36219201E41D91000FD0239 /* BZPMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BZPMusicViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D36218F61E41D5AF00FD0239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D36218F01E41D5AF00FD0239 = {
+			isa = PBXGroup;
+			children = (
+				D36218FB1E41D5AF00FD0239 /* Be Zesty-PoC */,
+				D36218FA1E41D5AF00FD0239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D36218FA1E41D5AF00FD0239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36218F91E41D5AF00FD0239 /* Be Zesty-PoC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36218FB1E41D5AF00FD0239 /* Be Zesty-PoC */ = {
+			isa = PBXGroup;
+			children = (
+				D36218FC1E41D5AF00FD0239 /* AppDelegate.swift */,
+				D36218FE1E41D5AF00FD0239 /* ViewController.swift */,
+				D36219201E41D91000FD0239 /* BZPMusicViewController.swift */,
+				D36219001E41D5AF00FD0239 /* Main.storyboard */,
+				D36219061E41D5AF00FD0239 /* Assets.xcassets */,
+				D36219081E41D5AF00FD0239 /* LaunchScreen.storyboard */,
+				D362190B1E41D5AF00FD0239 /* Info.plist */,
+				D36219171E41D5E700FD0239 /* Music */,
+			);
+			path = "Be Zesty-PoC";
+			sourceTree = "<group>";
+		};
+		D36219171E41D5E700FD0239 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				D36219181E41D5F100FD0239 /* English */,
+				D362191F1E41D5FE00FD0239 /* Spanish */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		D36219181E41D5F100FD0239 /* English */ = {
+			isa = PBXGroup;
+			children = (
+				D36219111E41D5E200FD0239 /* English_BeachGI.mp3 */,
+				D36219121E41D5E200FD0239 /* English_DeepBreathing.mp3 */,
+				D36219131E41D5E200FD0239 /* English_ForestGI.mp3 */,
+			);
+			name = English;
+			sourceTree = "<group>";
+		};
+		D362191F1E41D5FE00FD0239 /* Spanish */ = {
+			isa = PBXGroup;
+			children = (
+				D36219191E41D5FB00FD0239 /* Spanish_BeachGI.mp3 */,
+				D362191A1E41D5FB00FD0239 /* Spanish_DeepBreathing.mp3 */,
+				D362191B1E41D5FB00FD0239 /* Spanish_ForestGI.mp3 */,
+			);
+			name = Spanish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D36218F81E41D5AF00FD0239 /* Be Zesty-PoC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D362190E1E41D5AF00FD0239 /* Build configuration list for PBXNativeTarget "Be Zesty-PoC" */;
+			buildPhases = (
+				D36218F51E41D5AF00FD0239 /* Sources */,
+				D36218F61E41D5AF00FD0239 /* Frameworks */,
+				D36218F71E41D5AF00FD0239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Be Zesty-PoC";
+			productName = "Be Zesty-PoC";
+			productReference = D36218F91E41D5AF00FD0239 /* Be Zesty-PoC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D36218F11E41D5AF00FD0239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Wow Labz";
+				TargetAttributes = {
+					D36218F81E41D5AF00FD0239 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TUNSVZ59XW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D36218F41E41D5AF00FD0239 /* Build configuration list for PBXProject "Be Zesty-PoC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D36218F01E41D5AF00FD0239;
+			productRefGroup = D36218FA1E41D5AF00FD0239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D36218F81E41D5AF00FD0239 /* Be Zesty-PoC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D36218F71E41D5AF00FD0239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D362190A1E41D5AF00FD0239 /* LaunchScreen.storyboard in Resources */,
+				D362191E1E41D5FB00FD0239 /* Spanish_ForestGI.mp3 in Resources */,
+				D36219141E41D5E200FD0239 /* English_BeachGI.mp3 in Resources */,
+				D36219071E41D5AF00FD0239 /* Assets.xcassets in Resources */,
+				D36219021E41D5AF00FD0239 /* Main.storyboard in Resources */,
+				D36219161E41D5E200FD0239 /* English_ForestGI.mp3 in Resources */,
+				D36219151E41D5E200FD0239 /* English_DeepBreathing.mp3 in Resources */,
+				D362191D1E41D5FB00FD0239 /* Spanish_DeepBreathing.mp3 in Resources */,
+				D362191C1E41D5FB00FD0239 /* Spanish_BeachGI.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D36218F51E41D5AF00FD0239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36218FF1E41D5AF00FD0239 /* ViewController.swift in Sources */,
+				D36218FD1E41D5AF00FD0239 /* AppDelegate.swift in Sources */,
+				D36219211E41D91000FD0239 /* BZPMusicViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D36219001E41D5AF00FD0239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36219011E41D5AF00FD0239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D36219081E41D5AF00FD0239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D36219091E41D5AF00FD0239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D362190C1E41D5AF00FD0239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D362190D1E41D5AF00FD0239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D362190F1E41D5AF00FD0239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TUNSVZ59XW;
+				INFOPLIST_FILE = "Be Zesty-PoC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wow.Be-Zesty-PoC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D36219101E41D5AF00FD0239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TUNSVZ59XW;
+				INFOPLIST_FILE = "Be Zesty-PoC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wow.Be-Zesty-PoC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D36218F41E41D5AF00FD0239 /* Build configuration list for PBXProject "Be Zesty-PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D362190C1E41D5AF00FD0239 /* Debug */,
+				D362190D1E41D5AF00FD0239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D362190E1E41D5AF00FD0239 /* Build configuration list for PBXNativeTarget "Be Zesty-PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D362190F1E41D5AF00FD0239 /* Debug */,
+				D36219101E41D5AF00FD0239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D36218F11E41D5AF00FD0239 /* Project object */;
+}
