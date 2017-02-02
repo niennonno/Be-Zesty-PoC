@@ -95,12 +95,14 @@ class BZPMusicViewController: UIViewController {
         
         buttonChoice1.frame = CGRect(x: 0, y: 0, width: aView.frame.width/2-1, height: 45)
         buttonChoice1.tag = 1
+        buttonChoice1.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         buttonChoice1.setTitle(choiceNames[1], for: .normal)
         buttonChoice1.addTarget(self, action: #selector(buttonChoiceTapped), for: .touchUpInside)
         aView.addSubview(buttonChoice1)
         
         buttonChoice2.frame = CGRect(x: aBar.frame.maxX, y: 0, width: aView.frame.width-aBar.frame.maxX, height: 45)
         buttonChoice2.tag = 2
+        buttonChoice2.titleLabel?.font = UIFont.systemFont(ofSize: 14)
         buttonChoice2.setTitle(choiceNames[2], for: .normal)
         buttonChoice2.addTarget(self, action: #selector(buttonChoiceTapped), for: .touchUpInside)
         aView.addSubview(buttonChoice2)
