@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D35194DC1E49B2700007D58C /* BZPRecordVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35194DB1E49B2700007D58C /* BZPRecordVoiceViewController.swift */; };
 		D36218FD1E41D5AF00FD0239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36218FC1E41D5AF00FD0239 /* AppDelegate.swift */; };
 		D36218FF1E41D5AF00FD0239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36218FE1E41D5AF00FD0239 /* ViewController.swift */; };
 		D36219021E41D5AF00FD0239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36219001E41D5AF00FD0239 /* Main.storyboard */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D35194DB1E49B2700007D58C /* BZPRecordVoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BZPRecordVoiceViewController.swift; sourceTree = "<group>"; };
 		D36218F91E41D5AF00FD0239 /* Be Zesty-PoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Zesty-PoC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36218FC1E41D5AF00FD0239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D36218FE1E41D5AF00FD0239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				D36218FC1E41D5AF00FD0239 /* AppDelegate.swift */,
 				D36218FE1E41D5AF00FD0239 /* ViewController.swift */,
 				D36219201E41D91000FD0239 /* BZPMusicViewController.swift */,
-				D35194DB1E49B2700007D58C /* BZPRecordVoiceViewController.swift */,
 				D36219001E41D5AF00FD0239 /* Main.storyboard */,
 				D36219061E41D5AF00FD0239 /* Assets.xcassets */,
 				D36219081E41D5AF00FD0239 /* LaunchScreen.storyboard */,
@@ -192,7 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36218FF1E41D5AF00FD0239 /* ViewController.swift in Sources */,
-				D35194DC1E49B2700007D58C /* BZPRecordVoiceViewController.swift in Sources */,
 				D36218FD1E41D5AF00FD0239 /* AppDelegate.swift in Sources */,
 				D36219211E41D91000FD0239 /* BZPMusicViewController.swift in Sources */,
 			);
@@ -358,7 +354,6 @@
 				D36219101E41D5AF00FD0239 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
