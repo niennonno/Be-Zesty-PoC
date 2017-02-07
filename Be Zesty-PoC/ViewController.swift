@@ -49,13 +49,22 @@ class ViewController: UIViewController {
         
         view.addSubview(aDescriptionLabel)
         
-        let aButton  = UIButton(frame: CGRect(x: 0, y: 0, width: aMaxWidth-6*aPadding, height: 45))
-        aButton.setTitle("Try Meditation", for: .normal)
-        aButton.backgroundColor = .red
-        aButton.layer.cornerRadius = 45/2
-        aButton.center = CGPoint(x: view.center.x, y: aMaxHeight-4*aPadding)
-        aButton.addTarget(self, action: #selector(listenToMusic), for: .touchUpInside)
-        view.addSubview(aButton)
+        let aPlayButton  = UIButton(frame: CGRect(x: 0, y: 0, width: aMaxWidth-6*aPadding, height: 45))
+        aPlayButton.setTitle("Try Meditation", for: .normal)
+        aPlayButton.backgroundColor = .red
+        aPlayButton.layer.cornerRadius = 45/2
+        aPlayButton.center = CGPoint(x: view.center.x, y: aMaxHeight-4*aPadding)
+        aPlayButton.addTarget(self, action: #selector(listenToMusic), for: .touchUpInside)
+        view.addSubview(aPlayButton)
+//
+        let aRecordButton  = UIButton(frame: CGRect(x: 0, y: 0, width: aMaxWidth-6*aPadding, height: 45))
+        aRecordButton.setTitle("Record", for: .normal)
+        aRecordButton.backgroundColor = .green
+        aRecordButton.layer.cornerRadius = 45/2
+        aRecordButton.center = CGPoint(x: view.center.x, y: aMaxHeight-2*aPadding)
+        aRecordButton.addTarget(self, action: #selector(record), for: .touchUpInside)
+        view.addSubview(aRecordButton)
+
         
     }
 
@@ -72,4 +81,9 @@ class ViewController: UIViewController {
         
     }
     
+    
+    func record() {
+        let aVC = BZPRecordVoiceViewController()
+        self.navigationController?.pushViewController(aVC, animated: true)
+    }
 }
